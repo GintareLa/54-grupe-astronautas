@@ -1,1 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
 
+body {
+    padding: 24px 0;
+    width: 100%;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 16 px;
+    gap: 70px;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+header {
+    padding: 0 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+    align-items: center;
+   
+}
+
+header > img {
+    width: auto;
+    height: 20px;
+    display: flex;
+   
+ 
+   
+    
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0.5;
+    text-decoration: none;
+
+
+}
+
+nav > a {
+    font-size: 15px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+    margin-left: 1%;
+    margin-right: 3%;
+    text-decoration: none;
+ 
+}
+
+main {
+  padding: 0 24px 0 48px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+main > div {
+    display: flex;
+    flex-direction: column;
+}
+
+div > p:nth-of-type(1) {
+   font-size: 48px;
+   line-height: 1;
+   font-weight: 200;
+   font-family: 'Montserrat', sans-serif;
+}
+div > p:nth-of-type(2) {
+   line-height: 1;
+   font-size: 55px;
+   font-weight: 700;
+   font-family: 'Montserrat', sans-serif;
+
+}
+div > p:nth-of-type(3) {
+    
+    font-weight: 300;
+    width: 54%;
+    font-family: 'Montserrat', sans-serif;
+}
+div > div {
+    display: flex;
+    justify-content: center; /* Abu mygtukai bus centruoti */
+    gap: 16px; /* Tarpas tarp jų */
+    margin-top: 16px; /* Atsitraukimas nuo trečiojo pastraipos */
+}
+
+div > div > a:nth-child(1) {
+    text-decoration: none; /* Nuorodų be pabraukimo */
+    padding: 15px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: #664488; /* Mėlyna foninė spalva */
+    border-radius: 25px; /* Apvalinti kampai */
+    margin-right: 10%;
+    text-transform: uppercase;
+}
+div > div > a:nth-child(2) {
+    text-decoration: none; /* Nuorodų be pabraukimo */
+    padding: 15px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #664488;
+    background-color: #fff; #664488;  /* Mėlyna foninė spalva */
+    border-radius: 25px; /* Apvalinti kampai */
+    margin-right: 50%;
+    border: 2px solid #664488; /* Rėmelis spalvos #664488 */
+    text-transform: uppercase;
+    gap: 0px;
+}
+
+div > div > a:hover {
+    background-color: #0056b3; /* Tamsesnis atspalvis užvedus pelę */
+}
+
+main > img {
+
+    
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+footer > div {
+    margin-left: 5%;
+    
+ 
+  
+ 
+
+}
+footer > div > a {
+    opacity: 0.5;
+
+}
+footer > p {
+    float: right;
+    margin-right: 5%;
+
+}

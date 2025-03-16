@@ -40,3 +40,25 @@ git add .
 ```
 
 git push
+
+div > p:nth-child(1) {
+background-color: yellow;
+
+}
+div > p:nth-child(2) {
+background-color: green;
+
+}
+div > p:nth-child(4) {
+background-color: red;
+
+}
+
+gali buti ir taip, jei nera is eiles einantys vaikai, kaip virsuje
+
+```
+div > p:nth-of-typr(1) {
+    background-color: red;
+
+}
+```
